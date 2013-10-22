@@ -1,0 +1,45 @@
+/**
+ * This is where the SASS is written. It gets compiled into CSS via
+ * voodoo magic. Alternatively, you could use Koala - a piece of software.
+ *
+ * @author Rohit Garg
+ */
+/* Mixins */
+/* Basic Rules */
+* {
+  margin: 0px;
+  padding: 0px; }
+
+ol, ul {
+  list-style: none; }
+
+li.widget {
+  list-style-type: none; }
+
+#g-container {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+/* Homepage Styling */
+#hm-hero {
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #112233;
+  /* background: url("../images/hm-hero.jpg"); */
+  text-align: center;
+  padding: 20px 0; }
+  #hm-hero b {
+    font-size: 50px;
+    margin: 0 10px; }
+
+.hm-horizontal h2 {
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 100;
+  font-style: italic;
+  letter-spacing: 1px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #FAF0E6;
+  color: firebrick; }

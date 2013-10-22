@@ -12,3 +12,60 @@ Text Domain: renaissance
 
 This theme is licensed the GPL v2.
 */
+
+/** Reset **/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/** Homepage Styling **/
+body {
+
+}
+
+#hm-hero {
+  color: #112233;
+  background: url("images/hm-hero.jpg");
+  font-family: 'Ubuntu Condensed', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#hm-hero b {
+  font-size: 50px;
+  margin: 0 10px;
+}
+
+#hm-colorbox {
+  background: #aaaaaa;
+  height: 3px;
+  width: 100%;
+}
+
+#hm-colors {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+#hm-colors > div {
+  height: 5px;
+}
+
+#hm-colors .first {
+  background-color: #B22222;
+}
+
+#hm-colors .second {
+  background-color: #2E8B57;
+}
+
+#hm-colors .third {
+  background-color: #4682B4;
+}
